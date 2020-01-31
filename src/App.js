@@ -15,23 +15,23 @@ class App extends React.Component {
 
   }
 
-  modal = () => {
+  // modal = () => {
 
-    this.setState({ name: "e.target.value" })
-  }
+  //   this.setState({ name: "e.target.value" })
+  // }
 
-  handleClose = () => {
-    this.setState({ show: false })
-  }
-  handleOpen = () => {
-    this.setState({ show: true })
-  }
+  // handleClose = () => {
+  //   this.setState({ show: false })
+  // }
+  // handleOpen = () => {
+  //   this.setState({ show: true })
+  // }
 
   render() {
     return (
       <div className="container">
         <h1>Home!!!</h1>
-        <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onClick={this.modal}>Open Modal</button>
+        {/* <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onClick={this.modal}>Open Modal</button>
 
         <div className="modal fade" id="myModal" role="dialog">
           <div className="modal-dialog">
@@ -68,7 +68,7 @@ class App extends React.Component {
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
           </p>
           </div>
-        </Modal>
+        </Modal> */}
 
 
 

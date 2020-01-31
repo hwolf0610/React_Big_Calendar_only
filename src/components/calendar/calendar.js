@@ -148,7 +148,7 @@ class calendar extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ height: '500pt' }}>
+        <div style={{ height: '500pt',border: '2px solid', padding: '10px' ,box_shadow: '5px 10px #888888' }} >
           <Calendar
             events={this.state.events}
             startAccessor="start"
@@ -160,7 +160,7 @@ class calendar extends React.Component {
             data-target="#myModal"
           />
         </div>
-
+        <br/><br/>
         <Modal
           aria-labelledby="simple-modal-title"
           aria-describedby="simple-modal-description"
